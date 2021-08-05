@@ -1,0 +1,187 @@
+/* 
+THeme :Personal porfolio
+Author: Bhuvi
+  */
+  /* Css for whole web page */
+  *{
+      margin: 0;
+      padding: 0;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .wrapper{
+      /* border:1px solid red; */
+      width:80%;
+      margin:0 auto;
+      padding:1%;
+  }
+  .text-center{
+      text-align:center;
+  }
+  .wrapper.about{
+      border: 3px solid blue;
+  }
+  .clearfix{
+      float:none;
+      clear: both;
+  }
+  .text-right{
+      text-align: right;
+  }
+  .col-2{
+      width: 49%;
+      /* border:1px solid black; */
+      float:left;
+      margin: 0%;
+  }
+  .col-4{
+      /* border: 1px solid black; */
+      width: 20%;
+      float:left;
+      margin: 2%;
+}
+.col-3{
+    /* border:1px solid blue; */
+    width:28%;
+    float:left;
+    margin:2%;
+}
+
+
+  .img-responsive{
+      width:100%;
+  }
+  .btn{
+      background-color: blue;
+      color:white;
+      padding: 2%;
+      text-decoration: none;
+  }
+  .btn:hover{
+      background-color: white;
+      color:blue;
+      border:1px solid blue;
+  }
+  /* Css For navbar */
+  .logo{
+      float:left;
+      width:20%;
+/* border: 1PX SOLID black; */
+font-weight: bold;
+}
+.menu{
+    float:right;
+    /* border: 1PX SOLID black; */
+    width:70%
+}
+  .menu ul{
+      list-style-type: none;
+      
+  }
+  .menu ul li{
+      display: inline;
+      padding:2%;
+  }
+  .menu ul li a{
+      text-decoration:none;
+      font-weight: bold;
+
+  }
+  .menu ul li a:hover{
+      color:black;
+     text-decoration:underline;
+  }
+  /* Css for about section  */
+  .about {
+      margin-bottom: 5%;
+  }
+  .about-title{
+      margin-bottom: 3%;
+  }
+  .about-subtitle{
+      font-weight: bold;
+      color:gray;
+      margin-bottom: 5%;
+  }
+.about-description{
+    font-size :1.2em;
+    line-height: 30px;
+    margin-bottom: 5%;
+    padding: 0%;
+}
+/* CSS for project section  */
+.project{
+    margin-bottom: 5%;
+}
+.project-box{
+    position :relative;
+    
+}
+.project-title{
+    position:absolute;
+    top:80%;
+     padding:5%; 
+}
+.project a{
+    color:white;
+    font-weight: bold;
+    /* padding:2%; */
+}
+.project a:hover{
+    color:lightblue;
+}
+/* CSS for Skill */
+.skill{
+    margin-bottom: 5%;
+}
+.skillbox{
+    margin:2%;
+}
+.skill-meter{
+    border:1px solid blue;
+    width:80%;
+    float:right;
+}
+.skill-title{
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 40px;
+}
+/* CSS FOR blog section  */
+.blog{
+    margin-bottom: 5%;
+}
+.blog-title{
+    padding: 5% 2%;
+}
+/* CSS For Footer */
+footer{
+    padding-bottom: 5% ;
+}
+footer ul {
+    list-style-type: none;
+}
+footer ul li {
+    display :inline;
+    padding :2%;
+}
+/* CSS for mobile devices */
+@media only screen and(max-width:768px) {
+    .logo{
+        width:100%;
+        text-align:center;
+        margin-bottom: 2%;
+    }
+    .menu{
+        width:100%;
+        text-align:center;
+        margin-bottom:5%;
+
+    }
+    .col-2, .col-4,.col-3{
+width:100%;
+
+    }
+  
+}
+
+
